@@ -3,13 +3,63 @@
 		<title>BonAmy</title>
 		<script src="phonegap.js"></script>
 		<script src="jss/zepto.min.js"></script>
+		<script src="jss/bonamy.js"></script>
 	</head>
 	<body>
-	<p>Hello world !</p>
+	<header><img src="img/icon.png"><h1>BonAmy</h1></header>
+	<div class="container">
+		<div class="column">
+			<h2>Informations</h2>
+			<div></div>
+		</div>
+		<div class="column">
+			<h2>Parcours</h2>
+			<div></div>
+		</div>
+		<div class="column">
+			<h2>Recherche</h2>
+			<div></div>
+		</div>
+		<div class="column">
+			<h2>Paramètres</h2>
+			<div></div>
+		</div>
+	</div>
 	</body>
 	<script>
 	$(function() {
-		navigator.splashscreen.hide();
+		b.init();
     });
 	</script>
+	<style>
+	header{
+	}
+	header img{
+		height: 55px;
+	}
+	header h1{
+	display: inline-block;
+	margin: 0px 5px;
+	position: relative;
+	top: -10px;
+	font-size: 2.8em;
+	}
+	.container{
+		white-space: nowrap;
+	}
+	.column{
+		display: inline-block;
+		min-width: 350px;
+		margin-right : 5px;
+	}
+	@media (max-width: 520px) {
+		.column{
+			width: 100%;
+		}
+	}
+	.column h2{
+		border-bottom: 1px solid black;
+		margin-right: 50px; 
+	}
+	</style>
 </html>
