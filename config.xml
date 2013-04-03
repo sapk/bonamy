@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.example"
+        versionCode="1" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>BonAmy</name>
+
+    <description>
+        Application mobile de decouverte de la botanique, d'un point de vue ludique ou didactique. 			L'application utilise les données ouvertes de la ville de Nantes.
+    </description>
+
+    <author href="https://cv.sapk.fr" email="mail@sapk.fr">
+        Antoine GIRARD
+    </author>
+    
+    <preference name="phonegap-version" value="2.3.0" />
+	<preference name="orientation" value="portrait" />
+	<preference name="target-device" value="universal" />
+	<preference name="fullscreen" value="true" />
+	<preference name="show-splash-screen-spinner" value="true" />
+	<preference name="auto-hide-splash-screen" value="false" />
+	
+	<icon src="img/icon.png" />
+	
+	<preference name="permissions" value="none"/>
+</widget>
