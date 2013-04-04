@@ -3,13 +3,21 @@ var b = {
 		b.swiper = new Swiper('.swiper-container', {
 			"loop" : true,
 			speed:400, 
-			//ratio: 0.9,
+			ratio: 1,
 			"slidesPerSlide" : parseInt($('.swiper-container').width()/500)+1,
+			"scrollbar": {
+				container : '.swiper-scrollbar',
+				hide: true,
+				draggable : false
+			},
+			"onSlideChangeStart": function(){
+					b.swiper.params.ratio=(1-0.15*b.swiper.activeSlide);
+			}
 		});
+		//TODO A supprimer seulement pour le débug car trop de problème (décallage des slides) et inutile.
 		$(window).resize(function() {
 			b.swiper.params.slidesPerSlide=parseInt($('.swiper-container').width()/500)+1;
-			b.swiper.reInit() 
-			console.log(b.swiper.params)
+			b.swiper.reInit()
 		});
 		
 		navigator.splashscreen.hide();

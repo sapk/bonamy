@@ -14,7 +14,7 @@
 	}
 
 	.swiper-container,.swiper-slide {
-		height:100%;
+		/*height:100%;*/
 	}
 	
 	.swiper-slide h2{
@@ -22,7 +22,16 @@
 		margin-right: 50px; 
 		font-size: 1.8em;
 	}
-	
+	.swiper-scrollbar {
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		width: 100%;
+		height: 5px;
+	}
+	.swiper-scrollbar-drag {
+	}  
+	  
 	@media (max-width: 520px) {
 		.swiper-slide h2{ 
 			font-size: 2em;
