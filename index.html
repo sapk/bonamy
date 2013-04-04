@@ -1,29 +1,38 @@
 <html>
 	<head>
+		<meta charset="utf-8">
 		<title>BonAmy</title>
+		
 		<script src="phonegap.js"></script>
 		<script src="jss/zepto.min.js"></script>
+		
+		<link rel="stylesheet" href="css/idangerous.swiper.css">
+  		<script defer src="jss/idangerous.swiper-1.9.js"></script>
+		
+		<link rel="stylesheet" href="css/bonamy.css">
 		<script src="jss/bonamy.js"></script>
 	</head>
 	<body>
 	<header><img src="img/icon.png"><h1>BonAmy</h1></header>
-	<div class="container">
-		<div class="column">
+	<div class="swiper-container">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide">
 			<h2>Informations</h2>
 			<div></div>
 		</div>
-		<div class="column">
+		<div class="swiper-slide">
 			<h2>Parcours</h2>
 			<div></div>
 		</div>
-		<div class="column">
+		<div class="swiper-slide">
 			<h2>Recherche</h2>
 			<div></div>
 		</div>
-		<div class="column">
+		<div class="swiper-slide">
 			<h2>Paramètres</h2>
 			<div></div>
 		</div>
+	</div>
 	</div>
 	</body>
 	<script>
@@ -31,40 +40,4 @@
 		b.init();
     });
 	</script>
-	<style>
-	header{
-	}
-	header img{
-		height: 55px;
-	}
-	header h1{
-	display: inline-block;
-	margin: 0px 5px;
-	position: relative;
-	top: -10px;
-	font-size: 2.8em;
-	}
-	.container{
-		white-space: nowrap;
-	}
-	.column{
-		display: inline-block;
-		min-width: 350px;
-		margin : 5px;
-	}
-	.column h2{
-		border-bottom: 1px solid black;
-		margin-right: 50px; 
-		font-size: 1.8em;
-	}
-	
-	@media (max-width: 520px) {
-		.column{
-			width: 100%;
-		}
-		.column h2{ 
-			font-size: 2em;
-		}
-	}
-	</style>
 </html>

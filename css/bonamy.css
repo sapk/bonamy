@@ -1,0 +1,30 @@
+	header{
+	}
+	header img{
+		height: 55px;
+		background: #006CBA;
+		border-radius: 4px;
+	}
+	header h1{
+		display: inline-block;
+		margin: 20px 5px -12px 15px;
+		position: relative;
+		top: -10px;
+		font-size: 2.8em;
+	}
+
+	.swiper-container,.swiper-slide {
+		height:100%;
+	}
+	
+	.swiper-slide h2{
+		border-bottom: 1px solid black;
+		margin-right: 50px; 
+		font-size: 1.8em;
+	}
+	
+	@media (max-width: 520px) {
+		.swiper-slide h2{ 
+			font-size: 2em;
+		}
+	}
