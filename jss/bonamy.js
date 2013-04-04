@@ -12,15 +12,16 @@ var b = {
 			},
 			"onSlideChangeEnd": function(){
 					b.swiper.params.ratio=(1-0.14*b.swiper.activeSlide);
-					console.log(b.swiper.params.ratio)
 			}
 		});
 		//TODO A supprimer seulement pour le débug car trop de problème (décallage des slides) et inutile.
+		// réfléchir pour chngement de sens surtout tablette.
+		/*
 		$(window).resize(function() {
 			b.swiper.params.slidesPerSlide=parseInt($('.swiper-container').width()/500)+1;
 			b.swiper.reInit()
 		});
-		
+		*/
 		navigator.splashscreen.hide();
 	}
 };

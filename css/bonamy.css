@@ -10,7 +10,7 @@
 	}
 	header h1{
 		display: inline-block;
-		margin: 20px 5px -12px 15px;
+		margin: 25px 5px -20px 20px;
 		position: relative;
 		top: -10px;
 		font-size: 2.8em;
@@ -34,9 +34,28 @@
 	}
 	.swiper-scrollbar-drag {
 	}  
-	  
+	 .swiper-slide h3{
+		font-size: 1.5em;
+	}
+	 .theme-selector{
+	 	border-radius:25px;
+	 	width: 50px;
+	 	height:50px;
+	 	border: solid 1px;
+	 	display: inline-block;
+	 }
+	 .theme-selector div{
+	 	margin:	4px;
+	 	border-radius:21px;
+	 	width: 40px;
+	 	height:40px;
+	 	border: solid 1px grey;
+	 }
 	@media (max-width: 520px) {
 		.swiper-slide h2{ 
 			font-size: 2em;
+		}
+		.swiper-slide h3{
+			font-size: 1.6em;
 		}
 	}
