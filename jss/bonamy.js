@@ -11,7 +11,8 @@ var b = {
 				draggable : false
 			},
 			"onSlideChangeEnd": function(){
-					b.swiper.params.ratio=(1-0.12*b.swiper.activeSlide);
+					b.swiper.params.ratio=(1-0.14*b.swiper.activeSlide);
+					console.log(b.swiper.params.ratio)
 			}
 		});
 		//TODO A supprimer seulement pour le débug car trop de problème (décallage des slides) et inutile.
