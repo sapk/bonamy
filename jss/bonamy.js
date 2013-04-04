@@ -10,6 +10,6 @@ var b = {
 			console.log(b.swiper.params)
 		});
 		
-		//navigator.splashscreen.hide();
+		navigator.splashscreen.hide();
 	}
 };
