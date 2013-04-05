@@ -5,7 +5,6 @@ b.ui = {
 		// Correction du au margind u header et taile 100% du contenaur.
 		$('.swiper-container').height($('.swiper-container').height()-($(document).height()-$(window).height()+5));
 		// initialisation du pluginqui gère les transitions.
-		alert($(document).height()-$(window).height());
 		b.ui.swiper = new Swiper('.swiper-container', {
 			"loop" : true,
 			speed:400, 
