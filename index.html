@@ -12,9 +12,14 @@
 		<script src="jss/idangerous.swiper.scrollbar-1.2.js"></script>
 		
 		<link rel="stylesheet" href="css/bonamy.css">
+		<link rel="stylesheet" href="css/bonamy.light.css">
+		<link rel="stylesheet" href="css/bonamy.black.css">
+		<link rel="stylesheet" href="css/bonamy.green.css">
 		<script src="jss/bonamy.js"></script>
+		<script src="jss/bonamy.db.js"></script>
+		<script src="jss/bonamy.ui.js"></script>
 	</head>
-	<body>
+	<body class="light">
 	<header><img src="img/icon.png"><h1>BonAmy</h1></header>
 	<div class="swiper-container">
 	<div class="swiper-wrapper">
@@ -34,10 +39,9 @@
 			<h2>Paramètres</h2>
 			<div>
 			<div><h3>Thèmes : </h3>
-			<div class="theme-selector"><div style="background:black;"></div></div>
-			<div class="theme-selector"><div style="background:white;"></div></div>
-			<div class="theme-selector"><div style="background:green;"></div></div>
-			<div class="theme-selector"><div style="background:red;"></div></div>
+			<div class="theme-selector" onclick="b.ui.set.theme('black')"><div style="background:black;"></div></div>
+			<div class="theme-selector" onclick="b.ui.set.theme('light')"><div style="background:white;"></div></div>
+			<div class="theme-selector" onclick="b.ui.set.theme('green')"><div style="background:#96CA2D;"></div></div>
 			</div>
 			</div>
 		</div>

@@ -1,0 +1,12 @@
+.light header img{
+	background: #006CBA;
+}
+.light .swiper-slide h2{
+	border-bottom: 1px solid black;
+}
+.light .theme-selector{
+	border: 1px solid;
+}
+.light .theme-selector div{
+	 border: 0.1em solid grey;
+}

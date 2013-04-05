@@ -1,0 +1,16 @@
+body.black{
+	background: black;
+	color: white;
+}
+.black header img{
+	background: #006CBA;
+}
+.black .swiper-slide h2{
+	border-bottom: 1px solid #888;
+}
+.black .theme-selector{
+	border: 1px solid #888;
+}
+.black .theme-selector div{
+	 border: 0.1em solid #888;
+}
