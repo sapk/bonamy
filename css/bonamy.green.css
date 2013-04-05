@@ -5,11 +5,17 @@ body.green{
 	background: #006CBA;
 }
 .green .swiper-slide h2{
-	border-bottom: 2px solid #EEE;
+	border-bottom: 2px solid rgba(230, 230, 230, 0.9);
 }
 .green .theme-selector{
-	border: 2px solid #EEE;
+	border: 2px solid rgba(230, 230, 230, 0.9);
 }
 .green .theme-selector div{
-	 border: 0.1em dotted  #EEE;
+	 border: 0.1em dotted  rgba(230, 230, 230, 0.9);
+}
+.green .swiper-scrollbar-drag {
+	background:  rgba(230, 230, 230, 0.9);
+}  
+.green .swiper-scrollbar{
+	background:  rgba(20, 20, 20, 0.5);
 }

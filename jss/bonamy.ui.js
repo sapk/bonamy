@@ -3,6 +3,7 @@ b.ui = {
 		// Chargement du theme-selector
 		$("body").attr("class",b.db.data.params.theme);
 		// initialisation du pluginqui gère les transitions.
+		$('.swiper-container').height($('body').height()-88);
 		b.ui.swiper = new Swiper('.swiper-container', {
 			"loop" : true,
 			speed:400, 
