@@ -1,9 +1,10 @@
 	body{
-		overflow:hidden;
-		padding:10px;
+	/*	overflow:hidden;*/
+		padding:0;
 		margin:0;
 	}
 	header{
+		padding:0 10px;
 	}
 	header img{
 		height: 55px;
@@ -20,9 +21,10 @@
 	.swiper-container,.swiper-slide {
 		height:100%;
 	}
-	
+
 	.swiper-slide h2{
 		margin-right: 50px; 
+		margin-left: 10px; 
 		font-size: 1.8em;
 	}
 	.swiper-scrollbar {

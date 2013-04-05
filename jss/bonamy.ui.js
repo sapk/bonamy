@@ -2,8 +2,10 @@ b.ui = {
 	"init" : function(){
 		// Chargement du theme-selector
 		$("body").attr("class",b.db.data.params.theme);
+		// Correction du au margind u header et taile 100% du contenaur.
+		$('.swiper-container').height($('.swiper-container').height()-($(document).height()-$(window).height()+5));
 		// initialisation du pluginqui gère les transitions.
-		$('.swiper-container').height($('body').height()-88);
+		alert($(document).height()-$(window).height());
 		b.ui.swiper = new Swiper('.swiper-container', {
 			"loop" : true,
 			speed:400, 
