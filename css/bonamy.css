@@ -24,7 +24,7 @@
 		font-size: 1.8em;
 	}
 	.swiper-scrollbar {
-		position: absolute;
+		position: fixed;
 		bottom: 0px;
 		left: 0px;
 		width: 100%;
