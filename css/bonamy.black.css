@@ -1,16 +1,22 @@
 body.black{
 	background: black;
-	color: white;
+	color: rgba(240, 240, 240, 1);
 }
 .black header img{
 	background: #006CBA;
 }
 .black .swiper-slide h2{
-	border-bottom: 1px solid #888;
+	border-bottom: 1px solid rgba(240, 240, 240, 0.9);
 }
 .black .theme-selector{
-	border: 1px solid #888;
+	border: 1px solid rgba(240, 240, 240, 0.9);
 }
 .black .theme-selector div{
-	 border: 0.1em solid #888;
+	 border: 0.1em solid rgba(240, 240, 240, 0.9);
+}
+.black .swiper-scrollbar-drag {
+	background:  rgba(240, 240, 240, 0.9);
+}  
+.black .swiper-scrollbar{
+	background:  rgba(240, 240, 240, 0.2);
 }
