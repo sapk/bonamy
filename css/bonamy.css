@@ -29,7 +29,7 @@
 	}	
 	.swiper-slide>div{
 		margin-right: 10px; 
-		margin-left: 10px;
+		padding: 0 10px;
 	}
 	.swiper-scrollbar {
 		position: fixed;
@@ -60,6 +60,7 @@
 		min-height: 32px;
 		border-radius: 2px;
 		margin-bottom: 10px;
+		
 	}
 	#block-search input{
 	 	background: transparent;
