@@ -57,7 +57,7 @@
 	 }
 	.block{
 		width : 100%;
-		min-height: 20px;
+		min-height: 32px;
 		border-radius: 2px;
 		margin-bottom: 10px;
 	}
@@ -67,7 +67,7 @@
 		margin: 0;
 		padding : 5px 5px 3px 5px;
 		border:0;
-		font-size: 1.2em;
+		font-size: 1.4em;
 	}
 	@media (max-width: 520px) {
 		.swiper-slide h2{ 

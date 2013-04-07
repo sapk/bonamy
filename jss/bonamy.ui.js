@@ -15,6 +15,10 @@ b.ui = {
 				hide: true,
 				draggable : false
 			},
+			"keyboardControl" : true,
+			"onSlideClick" : function(){
+					alert("click");
+			}
 			"onSlideChangeEnd": function(){
 					b.swiper.params.ratio=(1-0.14*b.swiper.activeSlide);
 			}
