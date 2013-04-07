@@ -17,8 +17,11 @@ b.ui = {
 			},
 			"keyboardControl" : true,
 			"onSlideClick" : function(){
-					alert("click");
-			}
+					//alert(b.ui.swiper.clickedSlideIndex);
+					// Si c'est le slide de recherche on donne le focus à la barre de recherche.
+					if(b.ui.swiper.clickedSlideIndex==2)
+						$("#block-search>input").focus();
+			},
 			"onSlideChangeEnd": function(){
 					b.swiper.params.ratio=(1-0.14*b.swiper.activeSlide);
 			}
