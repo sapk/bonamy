@@ -20,3 +20,7 @@ body.black{
 .black .swiper-scrollbar{
 	background:  rgba(240, 240, 240, 0.2);
 }
+.black .block{
+	 background: rgba(130, 130, 130, 0.8);
+	 border: 1px solid grey;
+}

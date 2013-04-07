@@ -55,6 +55,20 @@
 		margin: 0.2em;
 		width: 3.5em;
 	 }
+	.block{
+		width : 100%;
+		min-height: 20px;
+		border-radius: 2px;
+		margin-bottom: 10px;
+	}
+	#block-search input{
+	 	background: transparent;
+		width:100%;
+		margin: 0;
+		padding : 5px 5px 3px 5px;
+		border:0;
+		font-size: 1.2em;
+	}
 	@media (max-width: 520px) {
 		.swiper-slide h2{ 
 			font-size: 2em;

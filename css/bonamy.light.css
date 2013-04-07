@@ -1,3 +1,9 @@
+
+
+body.light{
+	background: #EEE;
+}
+
 .light header img{
 	background: #006CBA;
 }
@@ -9,4 +15,8 @@
 }
 .light .theme-selector div{
 	 border: 0.1em solid grey;
+}
+.light .block{
+	 background: #FFF;
+	 border: 1px solid grey;
 }

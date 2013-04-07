@@ -19,3 +19,7 @@ body.green{
 .green .swiper-scrollbar{
 	background:  rgba(20, 20, 20, 0.5);
 }
+.green .block{
+	 background: rgba(230, 230, 230, 0.7);
+	 border: 1px solid grey;
+}
