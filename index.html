@@ -20,6 +20,7 @@
 		<script src="jss/bonamy.data.js"></script>
 		<script src="jss/bonamy.utils.js"></script>
 		<script src="jss/bonamy.ui.js"></script>
+		<script src="jss/bonamy.home.js"></script>
 	</head>
 	<body class="light">
 	<header><img src="img/icon.png"><h1>BonAmy</h1></header>
@@ -40,7 +41,9 @@
 			<h2>Parcours</h2>
 			<div>
 				<div id="block-parcours-pays" class="block">
+				<a href="htm/parcours-pays.htm">
 				<img src="img/map-monde.png" onload="$('#block-parcours-pays img').width($('#block-parcours-pays').width()-2)">
+				</a>
 				</div>
 				</div>
 		</div>
@@ -67,7 +70,7 @@
 	</body>
 	<script>
 	$(function() {
-		b.init();
+		b.home.init();
     });
 	</script>
 </html>
