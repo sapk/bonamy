@@ -17,6 +17,8 @@
 		<link rel="stylesheet" href="css/bonamy.green.css">
 		<script src="jss/bonamy.js"></script>
 		<script src="jss/bonamy.db.js"></script>
+		<script src="jss/bonamy.data.js"></script>
+		<script src="jss/bonamy.utils.js"></script>
 		<script src="jss/bonamy.ui.js"></script>
 	</head>
 	<body class="light">
@@ -39,7 +41,8 @@
 		<div class="swiper-slide">
 			<h2>Recherche</h2>
 			<div>
-				<div id="block-search" class="block"><input type="text" placeholder="Recherche ..."/></div>
+				<div id="block-search" class="block"><input type="text" onkeyup="b.data.find($(this).val());" placeholder="Recherche ..."/></div>
+				<ul class="search-results"></ul>
 			</div>
 		</div>
 		<div class="swiper-slide">
