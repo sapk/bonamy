@@ -24,3 +24,13 @@ body.black{
 	 background: rgba(150, 150, 150, 0.9);
 	 border: 1px solid grey;
 }
+
+.black li.group{
+	border-bottom: 1px solid rgba(240, 240, 240, 0.9);
+}
+.black li.item:nth-child(odd) {
+	 background: rgba(150, 150, 150, 0.7);
+}
+.black li.item:nth-child(even) {
+	 background: rgba(150, 150, 150, 0.9);
+}

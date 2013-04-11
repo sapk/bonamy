@@ -42,14 +42,38 @@ b.data = {
 		var html="";
 		//console.log(b.data._data);
 		for (var key in b.data._data){
-			
-			   html+="<li><h3>"+key+"</h3></li>"	
+				var tmp=0;
+			   html+="<li class='group'>"+key+"</li>"	
 		   // console.log("_data[" + key + "] = " + b.data._data[key]);
 			for (var id in b.data._data[key]){
 				if(b.data._data[key][id].search(new RegExp(text,'i'))!=-1)
-			   		html+="<li>"+b.data._data[key][id]+"</li>"	
+					tmp++;
+					if(tmp==1)
+			   			html+="<li class='item item-first group-"+encodeURI(key)+"'>"+b.data.gen_item(b.data._data[key][id])+"</li>"
+			   		else if(tmp<5)
+			   			html+="<li class='item group-"+encodeURI(key)+"'>"+b.data.gen_item(b.data._data[key][id])+"</li>"
+			   		else if(tmp==5)
+			   			html+="<li class='item item-last group-"+encodeURI(key)+"'>"+b.data.gen_item(b.data._data[key][id])+"</li>"
+			   		else
+			   			break;
+			   			
 		   }
 		}
 		$(".search-results").html(html);
+	},
+	"gen_item" : function(data){
+		var html="";
+		//data=data.replace(',"",','," ",');
+		//TODO on all file data to prepare.
+		//rpl ',"",' '," ",' herbacees.csv
+		//rpl ',"",' '," ",' herbacees.csv
+		//rpl '," ",""' '," "," "' herbacees.csv
+		//rpl '""' '\"' herbacees.csv
+
+		data="["+data+"]"
+		data=$.parseJSON(data);
+		console.log(data);
+		html+=" "+data[0]+" "+data[1]+" "+data[2]+" ";
+		return html;
 	}
 };
