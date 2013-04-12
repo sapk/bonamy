@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>BonAmy</title>
+		
+		<script src="../../../phonegap.js"></script>
+		<script src="../../../jss/zepto.min.js"></script>
+		
+		<link rel="stylesheet" href="../../../css/idangerous.swiper.css">
+		<link rel="stylesheet" href="../../../css/idangerous.swiper.scrollbar.css">
+  		<script src="../../../jss/idangerous.swiper-1.9.js"></script>
+		<script src="../../../jss/idangerous.swiper.scrollbar-1.2.js"></script>
+		
+		<link rel="stylesheet" href="../../../css/bonamy.css">
+		<link rel="stylesheet" href="../../../css/bonamy.light.css">
+		<link rel="stylesheet" href="../../../css/bonamy.black.css">
+		<link rel="stylesheet" href="../../../css/bonamy.green.css">
+		<script src="../../../jss/bonamy.js"></script>
+		<script src="../../../jss/bonamy.db.js"></script>
+		<script src="../../../jss/bonamy.data.js"></script>
+		<script src="../../../jss/bonamy.utils.js"></script>
+		<script src="../../../jss/bonamy.ui.js"></script>
+		<script src="../../../jss/bonamy.parcours.js"></script>
+	</head>
+	<body class="light">
+	<header>
+	<img src="../../../img/icon.png"><h1>BonAmy</h1>
+	<span style="position:fixed;top:0px;right:0px;"><a href="../../../index.html"><i class="left"></i></a><i  href="2.htm" class="right"></i></a></span>
+	</header>
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<h2>Image</h2>
+				<div>
+					<div id="img" class="block">
+            <img onload="$('#img img').width($('#img').width()-4)" src="11.jpg" alt="" />
+          </div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<h2>Informations</h2>
+				<div>
+					<div id="text" class="block">
+<ul>
+<h3>Quercus mirbeckii</h3>
+<li><b>Nom français :</b> Chêne Zen</li>
+<li><b>Famille :</b> Chêne Zen</li>
+<li><b>Hauteur :</b> 25m</li>
+<li><b>Circonférence :</b> 180cm</li>
+<li><b>Répartition :</b> Afrique du Nord</li>
+<li><b>Emplacement :</b> I4</li>
+<li><b>Le saviez-vous ?</b><br/>
+À l'époque de Colbert les chênes étaient coupés à l'âge de 250 à 300 ans, en Forêt de Tronçais par exemple, considérée aujourd'hui comme l'une des plus belles chênaies d'Europe.
+</li>
+</ul>
+          </div>	
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<h2>Carte</h2>
+				<div>
+					<div id="map" class="block">
+          
+          </div>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="swiper-scrollbar"></div>  
+	</body>
+	<script>
+	$(function() {
+		b.parcours.init();
+    });
+	</script>
+</html>
