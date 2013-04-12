@@ -3,7 +3,10 @@ body.black{
 	color: rgba(240, 240, 240, 1);
 }
 .black header img{
-	background: #006CBA;
+	background: rgba(70,255,70,0.4)
+	
+	background: #ADCF4F;
+	background: rgba(60,180,60,1);
 }
 .black .swiper-slide h2{
 	border-bottom: 1px solid rgba(240, 240, 240, 0.9);
@@ -34,4 +37,12 @@ body.black{
 }
 .black li.item:nth-child(even) {
 	 background: rgba(150, 150, 150, 0.9);
+}
+
+.black i.left{
+background-image: url(../img/left-white.png);
+}
+
+.black i.right{
+background-image: url(../img/right-white.png);
 }

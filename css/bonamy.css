@@ -99,3 +99,11 @@ border-radius: 3px 3px 0px 0px;
 li.item-last{
 border-radius: 0px 0px 3px 3px;
 }
+i{
+height: 50px;
+width: 50px;
+display: inline-block;
+background-size:50px 50px;
+background-repeat:no-repeat;
+margin: 10px 15px 0 15px;
+}

@@ -5,7 +5,8 @@ body.green{
 	background-position: right top;
 }
 .green header img{
-	background: #006CBA;
+	background: #ADCF4F;
+	background: rgba(60,180,60,1);
 }
 .green .swiper-slide h2{
 	border-bottom: 2px solid rgba(230, 230, 230, 0.9);
@@ -25,4 +26,12 @@ body.green{
 .green .block{
 	 background: rgba(230, 230, 230, 0.7);
 	 border: 2px solid grey;
+}
+
+.green i.left{
+background-image: url(../img/left-white.png);
+}
+
+.green i.right{
+background-image: url(../img/right-white.png);
 }

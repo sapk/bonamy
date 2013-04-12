@@ -5,7 +5,8 @@ body.light{
 }
 
 .light header img{
-	background: #006CBA;
+	background: #ADCF4F;
+	background: rgba(60,180,60,1);
 }
 .light .swiper-slide h2{
 	border-bottom: 1px solid black;
@@ -19,4 +20,12 @@ body.light{
 .light .block{
 	 background: #FFF;
 	 border: 2px solid grey;
+}
+
+.light i.left{
+background-image: url(../img/left-black.png);
+}
+
+.light i.right{
+background-image: url(../img/right-black.png);
 }
