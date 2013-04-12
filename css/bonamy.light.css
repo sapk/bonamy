@@ -3,7 +3,9 @@
 body.light{
 	background: #EEE;
 }
-
+.light a {
+	color: black;
+}
 .light header img{
 	background: #ADCF4F;
 	background: rgba(60,180,60,1);
@@ -28,4 +30,14 @@ background-image: url(../img/left-black.png);
 
 .light i.right{
 background-image: url(../img/right-black.png);
+}
+
+.light li.group{
+	border-bottom: 1px solid rgba(240, 240, 240, 0.9);
+}
+.light li.item:nth-child(odd) {
+	 background: rgba(150, 150, 150, 0.7);
+}
+.light li.item:nth-child(even) {
+	 background: rgba(150, 150, 150, 0.9);
 }

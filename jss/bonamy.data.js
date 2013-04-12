@@ -69,11 +69,11 @@ b.data = {
 		//rpl ',"",' '," ",' herbacees.csv
 		//rpl '," ",""' '," "," "' herbacees.csv
 		//rpl '""' '\"' herbacees.csv
-
+//http://en.wikipedia.org/w/index.php?search=+Acer%20+rubrum
 		data="["+data+"]"
 		data=$.parseJSON(data);
 		console.log(data);
-		html+=" "+data[0]+" "+data[1]+" "+data[2]+" ";
+		html+="<a href='http://en.wikipedia.org/w/index.php?search="+data[1]+"+"+data[2]+"'>"+data[0]+" "+data[1]+" "+data[2]+"</a>";
 		return html;
 	}
 };

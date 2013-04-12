@@ -2,6 +2,9 @@ body.black{
 	background: black;
 	color: rgba(240, 240, 240, 1);
 }
+.black a{
+	color: rgba(240, 240, 240, 1);
+}
 .black header img{
 	background: rgba(70,255,70,0.4)
 	
@@ -45,4 +48,7 @@ background-image: url(../img/left-white.png);
 
 .black i.right{
 background-image: url(../img/right-white.png);
+}
+.black #block-parcours-arbres,.black #block-parcours-pays{
+	background:  rgba(240, 240, 240, 0.2);
 }
