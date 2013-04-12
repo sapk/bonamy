@@ -47,6 +47,7 @@
 		display: inline-block;
 		height: 4em;
 		width: 4em;
+		background: rgba(240, 240, 240, 0.3);
 	 }
 	 .theme-selector div{
 		border-radius: 3.1em 3.1em 3.1em 3.1em;
@@ -106,4 +107,7 @@ display: inline-block;
 background-size:50px 50px;
 background-repeat:no-repeat;
 margin: 10px 15px 0 15px;
+}
+a{
+	text-decoration: underline;
 }

@@ -4,6 +4,9 @@ body.green{
 	background-repeat: no-repeat;
 	background-position: right top;
 }
+.green a {
+	color: black;
+}
 .green header img{
 	background: #ADCF4F;
 	background: rgba(60,180,60,1);
@@ -26,6 +29,17 @@ body.green{
 .green .block{
 	 background: rgba(230, 230, 230, 0.7);
 	 border: 2px solid grey;
+}
+
+
+.green li.group{
+	border-bottom: 1px solid #ADCF4F;
+}
+.green li.item:nth-child(odd) {
+	 background: rgba(150, 150, 150, 0.7);
+}
+.green li.item:nth-child(even) {
+	 background: rgba(150, 150, 150, 0.9);
 }
 
 .green i.left{
