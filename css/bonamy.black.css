@@ -2,7 +2,7 @@ body.black{
 	background: black;
 	color: rgba(240, 240, 240, 1);
 }
-.black a{
+.black a,.black input{
 	color: rgba(240, 240, 240, 1);
 }
 .black header img{
