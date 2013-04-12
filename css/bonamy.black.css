@@ -21,8 +21,9 @@ body.black{
 	background:  rgba(240, 240, 240, 0.2);
 }
 .black .block{
-	 background: rgba(150, 150, 150, 0.9);
-	 border: 1px solid grey;
+	 background: transparent;
+	 border: 2px solid grey;
+	 border-radius: 0;
 }
 
 .black li.group{

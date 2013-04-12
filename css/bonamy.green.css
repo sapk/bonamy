@@ -1,5 +1,8 @@
 body.green{
-	background: #ADCF4F;
+	background: #FFF;
+	background-image: url(../img/FeuillageD.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
 }
 .green header img{
 	background: #006CBA;
@@ -21,5 +24,5 @@ body.green{
 }
 .green .block{
 	 background: rgba(230, 230, 230, 0.7);
-	 border: 1px solid grey;
+	 border: 2px solid grey;
 }
