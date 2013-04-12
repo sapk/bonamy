@@ -7,6 +7,8 @@ b.parcours = {
 		if(!navigator)
 			navigator.splashscreen.hide();
 		$('#map').height($(document).height()-180);
+		$('#img').css('overflow' , "hidden");
+		$('#img').css('max-height' , $(document).height()-180);
 		
 		b.parcours.map = L.map('map', {
 			center: [47.219401, -1.543601],
