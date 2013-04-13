@@ -25,24 +25,24 @@ b.parcours = {
 			key: '8ee2a50541944fb9bcedded5165f09d9',
 			styleId: 1
 		}).addTo(b.parcours.map);
+
 		
 		b.parcours.marker = L.marker([47.219401, -1.543601],{icon:  L.icon({
 				iconUrl: '../../../img/dora.png',
 				iconSize: [50, 50],
 				iconAnchor: [25, 50]
-			})});
+			})}).addTo(b.parcours.map);
 			
 		b.parcours.watchID = navigator.geolocation.watchPosition(
 			b.parcours.onSuccess, b.parcours.onError, 
 			{ timeout: 30000 });
 			
-		b.parcours.marker.addTo(map);
 	},
 	
 	
 	onSuccess : function (position) {
 		b.parcours.marker.setLatLng([position.coords.latitude,position.coords.longitude])
-		b.parcours.marker.setView([position.coords.latitude,position.coords.longitude], 17)
+		//b.parcours.map.setView([position.coords.latitude,position.coords.longitude], 17)
 	},
 
 onError : function (error) {
